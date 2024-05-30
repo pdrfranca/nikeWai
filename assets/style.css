@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Century Gothic;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100vw;
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+div#finalBar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div#pesquisar{
+    padding: 10px 15px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+div#pesquisar input{
+    background-color: #eee;
+    border: none;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main img{
+    width: 100vw;
+}
+
+main div{
+    margin-top: 50px;
+}
+
+main div button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    margin: 50px;
+}
